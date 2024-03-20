@@ -1,0 +1,9 @@
+﻿@using System.Security.Claims;
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome @(Context.User.Claims.FirstOrDefault(x => x.Type == ClaimTypes.Name).Value) @(Context.User.Claims.FirstOrDefault(x => x.Type == ClaimTypes.Surname).Value)</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>

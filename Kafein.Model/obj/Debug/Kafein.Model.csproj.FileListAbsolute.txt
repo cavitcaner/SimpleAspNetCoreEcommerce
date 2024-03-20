@@ -1,0 +1,6 @@
+C:\Projects\ASpCoreMVC\Kafein.Eticaret\Kafein.Model\bin\Debug\Kafein.Model.dll
+C:\Projects\ASpCoreMVC\Kafein.Eticaret\Kafein.Model\bin\Debug\Kafein.Model.pdb
+C:\Projects\ASpCoreMVC\Kafein.Eticaret\Kafein.Model\obj\Debug\Kafein.Model.csproj.AssemblyReference.cache
+C:\Projects\ASpCoreMVC\Kafein.Eticaret\Kafein.Model\obj\Debug\Kafein.Model.csproj.CoreCompileInputs.cache
+C:\Projects\ASpCoreMVC\Kafein.Eticaret\Kafein.Model\obj\Debug\Kafein.Model.dll
+C:\Projects\ASpCoreMVC\Kafein.Eticaret\Kafein.Model\obj\Debug\Kafein.Model.pdb

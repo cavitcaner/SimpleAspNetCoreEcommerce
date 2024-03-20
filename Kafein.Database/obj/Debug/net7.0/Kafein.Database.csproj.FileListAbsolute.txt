@@ -1,0 +1,17 @@
+C:\Projects\ASpCoreMVC\Kafein.Eticaret\Kafein.Database\bin\Debug\net7.0\Kafein.Database.deps.json
+C:\Projects\ASpCoreMVC\Kafein.Eticaret\Kafein.Database\bin\Debug\net7.0\Kafein.Database.dll
+C:\Projects\ASpCoreMVC\Kafein.Eticaret\Kafein.Database\bin\Debug\net7.0\Kafein.Database.pdb
+C:\Projects\ASpCoreMVC\Kafein.Eticaret\Kafein.Database\bin\Debug\net7.0\Kafein.Model.dll
+C:\Projects\ASpCoreMVC\Kafein.Eticaret\Kafein.Database\bin\Debug\net7.0\Kafein.Model.pdb
+C:\Projects\ASpCoreMVC\Kafein.Eticaret\Kafein.Database\obj\Debug\net7.0\Kafein.Database.csproj.AssemblyReference.cache
+C:\Projects\ASpCoreMVC\Kafein.Eticaret\Kafein.Database\obj\Debug\net7.0\Kafein.Database.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\ASpCoreMVC\Kafein.Eticaret\Kafein.Database\obj\Debug\net7.0\Kafein.Database.AssemblyInfoInputs.cache
+C:\Projects\ASpCoreMVC\Kafein.Eticaret\Kafein.Database\obj\Debug\net7.0\Kafein.Database.AssemblyInfo.cs
+C:\Projects\ASpCoreMVC\Kafein.Eticaret\Kafein.Database\obj\Debug\net7.0\Kafein.Database.csproj.CoreCompileInputs.cache
+C:\Projects\ASpCoreMVC\Kafein.Eticaret\Kafein.Database\obj\Debug\net7.0\Kafein.Database.csproj.CopyComplete
+C:\Projects\ASpCoreMVC\Kafein.Eticaret\Kafein.Database\obj\Debug\net7.0\Kafein.Database.dll
+C:\Projects\ASpCoreMVC\Kafein.Eticaret\Kafein.Database\obj\Debug\net7.0\refint\Kafein.Database.dll
+C:\Projects\ASpCoreMVC\Kafein.Eticaret\Kafein.Database\obj\Debug\net7.0\Kafein.Database.pdb
+C:\Projects\ASpCoreMVC\Kafein.Eticaret\Kafein.Database\obj\Debug\net7.0\ref\Kafein.Database.dll
+C:\Projects\ASpCoreMVC\Kafein.Eticaret\Kafein.Database\bin\Debug\net7.0\Kafein.Database.runtimeconfig.json
+C:\Projects\ASpCoreMVC\Kafein.Eticaret\Kafein.Database\obj\Debug\net7.0\Kafein.Database.genruntimeconfig.cache
