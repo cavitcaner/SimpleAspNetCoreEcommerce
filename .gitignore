@@ -75,3 +75,4 @@ _[Ss]cripts
 *.nupkg
 *.ncrunchsolution
 *.dot[Cc]over
+/Kafein.Eticaret/bin/Debug/net7.0/Kafein.Database.dll
