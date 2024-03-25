@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "D:\\SimpleAspNetCoreEcommerce\\Kafein.Eticaret\\Kafein.Eticaret.csproj": {}
+    "C:\\Projects\\SimpleAspNetCoreEcommerce\\Kafein.Eticaret\\Kafein.Eticaret.csproj": {}
   },
   "projects": {
-    "D:\\SimpleAspNetCoreEcommerce\\Kafein.Database\\Kafein.Database.csproj": {
+    "C:\\Projects\\SimpleAspNetCoreEcommerce\\Kafein.Database\\Kafein.Database.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\SimpleAspNetCoreEcommerce\\Kafein.Database\\Kafein.Database.csproj",
+        "projectUniqueName": "C:\\Projects\\SimpleAspNetCoreEcommerce\\Kafein.Database\\Kafein.Database.csproj",
         "projectName": "Kafein.Database",
-        "projectPath": "D:\\SimpleAspNetCoreEcommerce\\Kafein.Database\\Kafein.Database.csproj",
-        "packagesPath": "C:\\Users\\cavit\\.nuget\\packages\\",
-        "outputPath": "D:\\SimpleAspNetCoreEcommerce\\Kafein.Database\\obj\\",
+        "projectPath": "C:\\Projects\\SimpleAspNetCoreEcommerce\\Kafein.Database\\Kafein.Database.csproj",
+        "packagesPath": "C:\\Users\\cavit.caner\\.nuget\\packages\\",
+        "outputPath": "C:\\Projects\\SimpleAspNetCoreEcommerce\\Kafein.Database\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\DevExpress 23.1\\Components\\Offline Packages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\cavit\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\cavit.caner\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 23.1.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,14 +26,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\DevExpress 23.1\\Components\\System\\Components\\Packages": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "D:\\SimpleAspNetCoreEcommerce\\Kafein.Model\\Kafein.Model.csproj": {
-                "projectPath": "D:\\SimpleAspNetCoreEcommerce\\Kafein.Model\\Kafein.Model.csproj"
+              "C:\\Projects\\SimpleAspNetCoreEcommerce\\Kafein.Model\\Kafein.Model.csproj": {
+                "projectPath": "C:\\Projects\\SimpleAspNetCoreEcommerce\\Kafein.Model\\Kafein.Model.csproj"
               }
             }
           }
@@ -81,21 +86,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\SimpleAspNetCoreEcommerce\\Kafein.Eticaret\\Kafein.Eticaret.csproj": {
+    "C:\\Projects\\SimpleAspNetCoreEcommerce\\Kafein.Eticaret\\Kafein.Eticaret.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\SimpleAspNetCoreEcommerce\\Kafein.Eticaret\\Kafein.Eticaret.csproj",
+        "projectUniqueName": "C:\\Projects\\SimpleAspNetCoreEcommerce\\Kafein.Eticaret\\Kafein.Eticaret.csproj",
         "projectName": "Kafein.Eticaret",
-        "projectPath": "D:\\SimpleAspNetCoreEcommerce\\Kafein.Eticaret\\Kafein.Eticaret.csproj",
-        "packagesPath": "C:\\Users\\cavit\\.nuget\\packages\\",
-        "outputPath": "D:\\SimpleAspNetCoreEcommerce\\Kafein.Eticaret\\obj\\",
+        "projectPath": "C:\\Projects\\SimpleAspNetCoreEcommerce\\Kafein.Eticaret\\Kafein.Eticaret.csproj",
+        "packagesPath": "C:\\Users\\cavit.caner\\.nuget\\packages\\",
+        "outputPath": "C:\\Projects\\SimpleAspNetCoreEcommerce\\Kafein.Eticaret\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\DevExpress 23.1\\Components\\Offline Packages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\cavit\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\cavit.caner\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 23.1.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -103,14 +112,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\DevExpress 23.1\\Components\\System\\Components\\Packages": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "D:\\SimpleAspNetCoreEcommerce\\Kafein.Database\\Kafein.Database.csproj": {
-                "projectPath": "D:\\SimpleAspNetCoreEcommerce\\Kafein.Database\\Kafein.Database.csproj"
+              "C:\\Projects\\SimpleAspNetCoreEcommerce\\Kafein.Database\\Kafein.Database.csproj": {
+                "projectPath": "C:\\Projects\\SimpleAspNetCoreEcommerce\\Kafein.Database\\Kafein.Database.csproj"
               }
             }
           }
@@ -155,15 +165,15 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\SimpleAspNetCoreEcommerce\\Kafein.Model\\Kafein.Model.csproj": {
+    "C:\\Projects\\SimpleAspNetCoreEcommerce\\Kafein.Model\\Kafein.Model.csproj": {
       "restore": {
-        "projectUniqueName": "D:\\SimpleAspNetCoreEcommerce\\Kafein.Model\\Kafein.Model.csproj",
+        "projectUniqueName": "C:\\Projects\\SimpleAspNetCoreEcommerce\\Kafein.Model\\Kafein.Model.csproj",
         "projectName": "Kafein.Model",
-        "projectPath": "D:\\SimpleAspNetCoreEcommerce\\Kafein.Model\\Kafein.Model.csproj",
+        "projectPath": "C:\\Projects\\SimpleAspNetCoreEcommerce\\Kafein.Model\\Kafein.Model.csproj",
         "frameworks": {
           "net472": {
             "projectReferences": {}
