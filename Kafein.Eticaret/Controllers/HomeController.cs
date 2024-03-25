@@ -6,7 +6,6 @@ using System.Security.Claims;
 
 namespace Kafein.Eticaret.Controllers
 {
-    [Authorize]
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;

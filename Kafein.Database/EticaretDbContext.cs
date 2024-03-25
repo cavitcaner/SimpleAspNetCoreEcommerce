@@ -12,6 +12,10 @@ namespace Kafein.Database
         {
             _connectionString = configuration.GetConnectionString("Eticaret");
         }
+        public EticaretDbContext(string connectionSring)
+        {
+            _connectionString = connectionSring;
+        }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {

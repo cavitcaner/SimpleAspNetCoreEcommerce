@@ -2,6 +2,7 @@
 using Kafein.Eticaret.Dtos;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authentication.Cookies;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System.Security.Claims;
 
@@ -45,10 +46,12 @@ namespace Kafein.Eticaret.Controllers
             }
         }
 
+        [Authorize]
         public IActionResult Logout()
         {
-            //Çıkış işlemini gerçekleştir.
-            return View();
+            HttpContext.SignOutAsync();
+
+            return RedirectToAction("Login");
         }
     }
 }

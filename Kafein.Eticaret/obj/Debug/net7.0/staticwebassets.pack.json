@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\Kafein.Eticaret.bundle.scp.css"
     },
     {
+      "Id": "C:\\Projects\\SimpleAspNetCoreEcommerce\\Kafein.Eticaret\\wwwroot\\css\\productcard.css",
+      "PackagePath": "staticwebassets\\css\\productcard.css"
+    },
+    {
       "Id": "C:\\Projects\\SimpleAspNetCoreEcommerce\\Kafein.Eticaret\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },

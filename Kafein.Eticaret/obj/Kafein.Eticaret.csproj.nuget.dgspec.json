@@ -4,6 +4,70 @@
     "C:\\Projects\\SimpleAspNetCoreEcommerce\\Kafein.Eticaret\\Kafein.Eticaret.csproj": {}
   },
   "projects": {
+    "C:\\Projects\\SimpleAspNetCoreEcommerce\\Kafein.Business\\Kafein.Business.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Projects\\SimpleAspNetCoreEcommerce\\Kafein.Business\\Kafein.Business.csproj",
+        "projectName": "Kafein.Business",
+        "projectPath": "C:\\Projects\\SimpleAspNetCoreEcommerce\\Kafein.Business\\Kafein.Business.csproj",
+        "packagesPath": "C:\\Users\\cavit.caner\\.nuget\\packages\\",
+        "outputPath": "C:\\Projects\\SimpleAspNetCoreEcommerce\\Kafein.Business\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\DevExpress 23.1\\Components\\Offline Packages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\cavit.caner\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 23.1.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\DevExpress 23.1\\Components\\System\\Components\\Packages": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Projects\\SimpleAspNetCoreEcommerce\\Kafein.Database\\Kafein.Database.csproj": {
+                "projectPath": "C:\\Projects\\SimpleAspNetCoreEcommerce\\Kafein.Database\\Kafein.Database.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "C:\\Projects\\SimpleAspNetCoreEcommerce\\Kafein.Database\\Kafein.Database.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -119,6 +183,9 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
+              "C:\\Projects\\SimpleAspNetCoreEcommerce\\Kafein.Business\\Kafein.Business.csproj": {
+                "projectPath": "C:\\Projects\\SimpleAspNetCoreEcommerce\\Kafein.Business\\Kafein.Business.csproj"
+              },
               "C:\\Projects\\SimpleAspNetCoreEcommerce\\Kafein.Database\\Kafein.Database.csproj": {
                 "projectPath": "C:\\Projects\\SimpleAspNetCoreEcommerce\\Kafein.Database\\Kafein.Database.csproj"
               }

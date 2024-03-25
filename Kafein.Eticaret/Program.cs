@@ -1,3 +1,4 @@
+using Kafein.Business;
 using Kafein.Database;
 using Microsoft.EntityFrameworkCore;
 
@@ -12,6 +13,7 @@ namespace Kafein.Eticaret
             // Add services to the container.
             builder.Services.AddControllersWithViews();
             builder.Services.AddSingleton<EticaretDbContext>();
+            builder.Services.AddSingleton<IProductManager, ProductManager>();
             builder.Services.AddAuthentication()
                 .AddCookie(x =>
                 {

@@ -1,0 +1,54 @@
+﻿@using Kafein.Model;
+
+@model List<Urun>
+
+@{
+    ViewBag.Title = "Ürünler";
+}
+<link href="~/css/productcard.css" rel="stylesheet" />
+
+
+<h1>Ürünler Listesi</h1>
+
+<div class="height d-flex justify-content-center align-items-center">
+
+    @foreach (var urun in Model)
+    {
+
+        <div class="card p-3">
+            <div class="d-flex justify-content-between align-items-center ">
+                <div class="mt-2">
+                    <h4 class="text-uppercase">@urun.Adi</h4>
+                    <div class="mt-5">
+                        <h1 class="main-heading mt-0">@urun.Fiyat ₺</h1>
+                        <div class="d-flex flex-row user-ratings">
+                            <div class="ratings">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                            </div>
+                            <h6 class="text-muted ml-1">Stok: @urun.Stok</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="image">
+                    @if (string.IsNullOrEmpty(urun.ResimUrl))
+                    {
+                        <img src="@Constraints.EmptyImageUrl" width="200">
+                    }
+                    else
+                    {
+                        <img src="@urun.ResimUrl" width="200">
+                    }
+                </div>
+            </div>
+
+            <p> @urun.Aciklama </p>
+
+            <a class="btn btn-danger" href="/Products/AddToBasket/@urun.Id" >Sepete Ekle</a>
+        </div>
+
+    }
+
+</div>

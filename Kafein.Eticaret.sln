@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33424.131
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kafein.Eticaret", "Kafein.Eticaret\Kafein.Eticaret.csproj", "{5941C540-4572-410C-AB20-338F40670A21}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kafein.Eticaret", "Kafein.Eticaret\Kafein.Eticaret.csproj", "{5941C540-4572-410C-AB20-338F40670A21}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kafein.Model", "Kafein.Model\Kafein.Model.csproj", "{BFDC491D-3C18-414B-AD81-5F9C66489F3C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kafein.Database", "Kafein.Database\Kafein.Database.csproj", "{A20D1034-C77B-4FB0-8C93-54EE41AF4A1C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kafein.Database", "Kafein.Database\Kafein.Database.csproj", "{A20D1034-C77B-4FB0-8C93-54EE41AF4A1C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kafein.Business", "Kafein.Business\Kafein.Business.csproj", "{FB6252A4-D351-44BB-9742-22799F34BDB4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{A20D1034-C77B-4FB0-8C93-54EE41AF4A1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A20D1034-C77B-4FB0-8C93-54EE41AF4A1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A20D1034-C77B-4FB0-8C93-54EE41AF4A1C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB6252A4-D351-44BB-9742-22799F34BDB4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB6252A4-D351-44BB-9742-22799F34BDB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB6252A4-D351-44BB-9742-22799F34BDB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB6252A4-D351-44BB-9742-22799F34BDB4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

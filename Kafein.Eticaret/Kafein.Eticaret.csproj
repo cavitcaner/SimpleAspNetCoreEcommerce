@@ -15,6 +15,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Kafein.Business\Kafein.Business.csproj" />
     <ProjectReference Include="..\Kafein.Database\Kafein.Database.csproj" />
   </ItemGroup>
 

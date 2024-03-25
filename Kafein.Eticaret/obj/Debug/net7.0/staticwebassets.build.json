@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Tha9qPfeDJl8RAxqgkLUWzpmVbzIa4/1/OjDqLUkiEY=",
+  "Hash": "8LjE9KzzvAxhzm8Ya0eDHbhfaiHWhHdSTuC0oSbUBW8=",
   "Source": "Kafein.Eticaret",
   "BasePath": "_content/Kafein.Eticaret",
   "Mode": "Default",
@@ -49,6 +49,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Projects\\SimpleAspNetCoreEcommerce\\Kafein.Eticaret\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\Kafein.Eticaret.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Projects\\SimpleAspNetCoreEcommerce\\Kafein.Eticaret\\wwwroot\\css\\productcard.css",
+      "SourceId": "Kafein.Eticaret",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Projects\\SimpleAspNetCoreEcommerce\\Kafein.Eticaret\\wwwroot\\",
+      "BasePath": "_content/Kafein.Eticaret",
+      "RelativePath": "css/productcard.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\productcard.css"
     },
     {
       "Identity": "C:\\Projects\\SimpleAspNetCoreEcommerce\\Kafein.Eticaret\\wwwroot\\css\\site.css",
